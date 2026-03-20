@@ -1,10 +1,10 @@
 # Homework1--SCC
+
 Usage:<br>
 app -e/-d <input file> -o <output file> -k <integer> <br>
 ex. app -o output2.txt -d input2.txt -k 5<br>
 Explanation:<br>
-My solution includes an implementation of the Caesar's cipher.<br>
-<br>
+My solution includes an implementation of the Caesar's cipher in Java. The code can be found in the Main.java file in the src directory. Src also contains the files for the test cases.<br>
 Flow:<br>
 First I check if the program arguments are correctly entered. If there are more or less arguments entered then expected then 
 a message will be displayed.<br>
