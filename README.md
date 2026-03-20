@@ -23,4 +23,4 @@ The key for the Caesar cipher is 5.<br>
 2. input2.txt contains the encrypted message from output1.txt. With this test case I aimed to analyze the performance of the decryption part of the programme.
 I used the same key. The result of the decryption can be found in output2.txt<br>
 3. input3.txt contains lines with only one character per line. I also added lines without any characters to verify if the program stops prematurely or not.
-It passed this test case, and outputted all the lines in output3.txt
+It passed this test case, and outputted all the lines in output3.txt.
