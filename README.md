@@ -11,7 +11,7 @@ a message will be displayed.<br>
 The rest of the algorithm is pretty intuitive.<br>
 I go through the file using a while loop which stops when there aren't any lines left to iterate through.
 I save the line and I iterate through each character found in the line. 
-Depending on the choice of the user I either encrypt that line (add k to the initial character to shift it forward with k positions) or decrypt it (substitue k from the initial character to shift it backward with k positions). I also use %256 to make sure that the ASCII bounds are respected.
+Depending on the choice of the user I either encrypt that line (add k to the initial character to shift it forward with k positions) or decrypt it (substitute k from the initial character to shift it backward with k positions). I also use %256 to make sure that the ASCII bounds are respected.
 The encrypted or decrypted characters are used to build a new string which is outputted in the file chosen by the user.<br>
 <br>
 Test cases:<br>
